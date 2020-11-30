@@ -1,0 +1,7 @@
+(define (myprogram n)
+  (if (and (number? n) (= n 3))
+      (display "Hello World")
+      (newline)
+      )
+  )
+(myprogram 3)

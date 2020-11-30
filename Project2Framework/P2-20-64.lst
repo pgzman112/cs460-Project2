@@ -1,0 +1,7 @@
+Input file: P2-20-64.ss
+   1: (define (main)
+   2:   (cond (func function)(else ' or)
+   3: 	        )
+   4:   )
+   5: (main)
+0 errors found in input file
