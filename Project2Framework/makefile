@@ -16,10 +16,12 @@ SyntacticalAnalyzer.o : SyntacticalAnalyzer.cpp SyntacticalAnalyzer.h LexicalAna
 clean : 
 	rm *.o P2.out 
 
-submit : Project2.cpp LexicalAnalyzer.h SyntacticalAnalyzer.h SyntacticalAnalyzer.cpp makefile README.txt
+submit : Project2.cpp LexicalAnalyzer.h SyntacticalAnalyzer.h SyntacticalAnalyzer.cpp makefile README.txt LexicalAnalyzer.cpp LexicalAnalyzer.h
 	rm -rf zimmermanP2
 	mkdir zimmermanP2
 	cp Project2.cpp zimmermanP2
+	cp LexicalAnalyzer.cpp zimmermanP2
+	cp LexicalAnalyzer.h zimmermanP2
 	cp SyntacticalAnalyzer.h zimmermanP2
 	cp SyntacticalAnalyzer.cpp zimmermanP2
 	cp makefile zimmermanP2
