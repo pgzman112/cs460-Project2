@@ -1,0 +1,44 @@
+Input file: P2-1-32-58.ss
+   1: (define (myprogram n)
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         myprogram
+	IDENT_T         n
+	RPAREN_T        )
+   2:   (if (and (number? n) (= n 3))
+	LPAREN_T        (
+	IF_T            if
+	LPAREN_T        (
+	AND_T           and
+	LPAREN_T        (
+	NUMBERP_T       number?
+	IDENT_T         n
+	RPAREN_T        )
+	LPAREN_T        (
+	EQUALTO_T       =
+	IDENT_T         n
+	NUMLIT_T        3
+	RPAREN_T        )
+	RPAREN_T        )
+   3:       (display "Hello World")
+	LPAREN_T        (
+	DISPLAY_T       display
+	STRLIT_T        "Hello World"
+	RPAREN_T        )
+   4:       (newline)
+	LPAREN_T        (
+	NEWLINE_T       newline
+	RPAREN_T        )
+   5:       )
+	RPAREN_T        )
+   6:   )
+	RPAREN_T        )
+   7: (myprogram 3)
+	LPAREN_T        (
+	IDENT_T         myprogram
+	NUMLIT_T        3
+	RPAREN_T        )
+	EOF_T           
+	EOF_T           
+0 errors found in input file

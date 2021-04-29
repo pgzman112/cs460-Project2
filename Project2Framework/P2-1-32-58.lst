@@ -1,0 +1,9 @@
+Input file: P2-1-32-58.ss
+   1: (define (myprogram n)
+   2:   (if (and (number? n) (= n 3))
+   3:       (display "Hello World")
+   4:       (newline)
+   5:       )
+   6:   )
+   7: (myprogram 3)
+0 errors found in input file

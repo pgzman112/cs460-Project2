@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/e/Dev_School/cs460/cs460-Project2/Project2Framework/LexicalAnalyzer.h
+iostream
+-
+fstream
+-
+map
+-
+
+/cygdrive/e/Dev_School/cs460/cs460-Project2/Project2Framework/SyntacticalAnalyzer.cpp
+iostream
+-
+iomanip
+-
+fstream
+-
+SyntacticalAnalyzer.h
+/cygdrive/e/Dev_School/cs460/cs460-Project2/Project2Framework/SyntacticalAnalyzer.h
+
+/cygdrive/e/Dev_School/cs460/cs460-Project2/Project2Framework/SyntacticalAnalyzer.h
+iostream
+-
+fstream
+-
+LexicalAnalyzer.h
+/cygdrive/e/Dev_School/cs460/cs460-Project2/Project2Framework/LexicalAnalyzer.h
+

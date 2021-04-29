@@ -1,0 +1,23 @@
+	LPAREN_T        (
+	DEFINE_T        define
+	LPAREN_T        (
+	IDENT_T         main
+	RPAREN_T        )
+	LPAREN_T        (
+	COND_T          cond
+	LPAREN_T        (
+	IDENT_T         func
+	IDENT_T         function
+	RPAREN_T        )
+	LPAREN_T        (
+	ELSE_T          else
+	SQUOTE_T        '
+	OR_T            or
+	RPAREN_T        )
+	RPAREN_T        )
+	RPAREN_T        )
+	LPAREN_T        (
+	IDENT_T         main
+	RPAREN_T        )
+	EOF_T           
+	EOF_T           

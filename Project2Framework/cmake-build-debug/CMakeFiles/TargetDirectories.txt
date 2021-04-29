@@ -1,0 +1,3 @@
+/cygdrive/e/Dev_School/cs460/cs460-Project2/Project2Framework/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/e/Dev_School/cs460/cs460-Project2/Project2Framework/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/e/Dev_School/cs460/cs460-Project2/Project2Framework/cmake-build-debug/CMakeFiles/Project2Framework.dir

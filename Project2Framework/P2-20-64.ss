@@ -1,0 +1,5 @@
+(define (main)
+  (cond (func function)(else ' or)
+	        )
+  )
+(main)
